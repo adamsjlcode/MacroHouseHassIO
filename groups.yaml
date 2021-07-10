@@ -1,6 +1,5 @@
-light:
-  - platform: group
-    name: Kitchen Lights
+bedroom:
+    name: Bedroom
     entities:
       - light.ceiling_light_two
       - light.floor_lamp_buttom
@@ -9,3 +8,14 @@ light:
       - light.ceiling_light_one
       - light.floorlamp_top
       - light.floor_lamp_middle
+hallway:
+    name: Hallway
+    entities:
+      - light.hallway_third
+      - light.hallway_one
+      - light.kitchen_overhead
+      - light.hallway_side_right_one
+      - light.hallway_side_right_three
+      - light.hallway_side_left_three
+      - light.hallway_two
+      - light.hallway_side_left_one
