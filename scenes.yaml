@@ -1,0 +1,256 @@
+####################################################
+#              Scene Arctic Aurora                 #
+####################################################
+# rgb_color: [15, 168, 255]
+# rgb_color: [0, 56, 255]
+# rgb_color: [50, 0, 255]
+# brightness: 153
+
+- name: Arctic Aurora
+  entities:
+    input_boolean.default:
+      state: "off"
+    input_boolean.sync_speakers_lights:
+      state: "off"
+    light.bed_light_strip_1:
+      state: "on"
+      rgb_color: [15, 168, 255]
+      brightness: 153
+    light.light_globe_1_2:
+      state: "on"
+      rgb_color: [15, 168, 255]
+      brightness: 153
+    light.bed_light_strip_2:
+      state: "on"
+      rgb_color: [0, 56, 255]
+      brightness: 153
+    light.light_globe_2_2:
+      state: "on"
+      rgb_color: [0, 56, 255]
+      brightness: 153
+    light.light_globe_1_1:
+      state: "on"
+      rgb_color: [50, 0, 255]
+      brightness: 153
+    light.light_globe_2_1:
+      state: "on"
+      rgb_color: [50, 0, 255]
+      brightness: 153
+    light.floorlamp:
+      state: "on"
+      rgb_color: [50, 0, 255]
+      brightness: 153
+
+####################################################
+#                  Scene Galaxy                    #
+####################################################
+# rgb_color: [255, 104, 149]
+# rgb_color: [90, 33, 255]
+# rgb_color: [116, 81, 255]
+# rgb_color: [241, 86, 255]
+# brightness: 48
+
+- name: Galaxy
+  entities:
+    input_boolean.default:
+      state: "off"
+    input_boolean.sync_speakers_lights:
+      state: "off"
+    light.bed_light_strip_1:
+      state: "on"
+      rgb_color: [255, 104, 149]
+      brightness: 48
+    light.light_globe_1_2:
+      state: "on"
+      rgb_color: [255, 104, 149]
+      brightness: 48
+    light.bed_light_strip_2:
+      state: "on"
+      rgb_color: [90, 33, 255]
+      brightness: 48
+    light.light_globe_2_2:
+      state: "on"
+      rgb_color: [90, 33, 255]
+      brightness: 48
+    light.light_globe_1_1:
+      state: "on"
+      rgb_color: [116, 81, 255]
+      brightness: 48
+    light.light_globe_2_1:
+      state: "on"
+      rgb_color: [116, 81, 255]
+      brightness: 48
+    light.floorlamp:
+      state: "on"
+      rgb_color: [241, 86, 255]
+      brightness: 48
+
+####################################################
+#                Scene Palm Beach                  #
+####################################################
+# rgb_color: [137, 191, 255]
+# rgb_color: [56, 171, 255]
+# rgb_color: [255, 188, 232]
+# rgb_color: [255, 84, 84]
+# brightness: 255
+
+- name: Palm Beach
+  entities:
+    input_boolean.default:
+      state: "off"
+    input_boolean.sync_speakers_lights:
+      state: "off"
+    light.bed_light_strip_1:
+      state: "on"
+      rgb_color: [137, 191, 255]
+      brightness: 255
+    light.light_globe_1_2:
+      state: "on"
+      rgb_color: [137, 191, 255]
+      brightness: 255
+    light.bed_light_strip_2:
+      state: "on"
+      rgb_color: [56, 171, 255]
+      brightness: 255
+    light.light_globe_2_2:
+      state: "on"
+      rgb_color: [56, 171, 255]
+      brightness: 255
+    light.light_globe_1_1:
+      state: "on"
+      rgb_color: [255, 188, 232]
+      brightness: 255
+    light.light_globe_2_1:
+      state: "on"
+      rgb_color: [255, 188, 232]
+      brightness: 255
+    light.floorlamp:
+      state: "on"
+      rgb_color: [255, 84, 84]
+      brightness: 255
+
+####################################################
+#              Scene Savanna Sunset                #
+####################################################
+# rgb_color: [255, 101, 53]
+# rgb_color: [255, 48, 20]
+# rgb_color: [255, 156, 66]
+# rgb_color: [255, 248, 84]
+# brightness: 199
+- name: Savanna Sunset
+  entities:
+    input_boolean.default:
+      state: "off"
+    input_boolean.sync_speakers_lights:
+      state: "off"
+    light.bed_light_strip_1:
+      state: "on"
+      rgb_color: [255, 101, 53]
+      brightness: 199
+    light.light_globe_1_2:
+      state: "on"
+      rgb_color: [255, 101, 53]
+      brightness: 199
+    light.bed_light_strip_2:
+      state: "on"
+      rgb_color: [255, 48, 20]
+      brightness: 199
+    light.light_globe_2_2:
+      state: "on"
+      rgb_color: [255, 48, 20]
+      brightness: 199
+    light.light_globe_1_1:
+      state: "on"
+      rgb_color: [255, 156, 66]
+      brightness: 199
+    light.light_globe_2_1:
+      state: "on"
+      rgb_color: [255, 156, 66]
+      brightness: 199
+    light.floorlamp:
+      state: "on"
+      rgb_color: [255, 248, 84]
+      brightness: 199
+
+####################################################
+#                   Scene Soho                     #
+####################################################
+# rgb_color: [255,0,107]
+# rgb_color: [61,196,255]
+# rgb_color: [255,132,139]
+# rgb_color: [145,35,255]
+# rgb_color: [255,10,201]
+# brightness: 200
+- name: Soho
+  entities:
+    input_boolean.default:
+      state: "off"
+    input_boolean.sync_speakers_lights:
+      state: "off"
+    light.bed_light_strip_1:
+      state: "on"
+      rgb_color: [255, 0, 107]
+      brightness: 200
+    light.light_globe_1_2:
+      state: "on"
+      rgb_color: [255, 0, 107]
+      brightness: 200
+    light.bed_light_strip_2:
+      state: "on"
+      rgb_color: [61, 196, 255]
+      brightness: 200
+    light.light_globe_2_2:
+      state: "on"
+      rgb_color: [255, 132, 139]
+      brightness: 200
+    light.light_globe_1_1:
+      state: "on"
+      rgb_color: [145, 35, 255]
+      brightness: 200
+    light.light_globe_2_1:
+      state: "on"
+      rgb_color: [255, 10, 201]
+      brightness: 200
+    light.floorlamp:
+      state: "on"
+      rgb_color: [255, 10, 201]
+      brightness: 200
+
+####################################################
+#                 Scene Default                    #
+####################################################
+
+- name: Default
+  entities:
+    input_boolean.default:
+      state: "on"
+    input_boolean.sync_speakers_lights:
+      state: "off"
+    light.bed_light_strip_1:
+      state: "on"
+      color_temp: 447
+      brightness_pct: 100
+    light.light_globe_1_2:
+      state: "on"
+      color_temp: 447
+      brightness_pct: 100
+    light.bed_light_strip_2:
+      state: "on"
+      color_temp: 447
+      brightness_pct: 100
+    light.light_globe_2_2:
+      state: "on"
+      color_temp: 447
+      brightness_pct: 100
+    light.light_globe_1_1:
+      state: "on"
+      color_temp: 447
+      brightness_pct: 100
+    light.light_globe_2_1:
+      state: "on"
+      color_temp: 447
+      brightness_pct: 100
+    light.floorlamp:
+      state: "on"
+      color_temp: 447
+      brightness_pct: 100

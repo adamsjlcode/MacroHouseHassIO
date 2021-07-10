@@ -1,0 +1,11 @@
+light:
+  - platform: group
+    name: Kitchen Lights
+    entities:
+      - light.ceiling_light_two
+      - light.floor_lamp_buttom
+      - light.ceiling_light_three
+      - light.bed_light_strip
+      - light.ceiling_light_one
+      - light.floorlamp_top
+      - light.floor_lamp_middle

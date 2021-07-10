@@ -1,0 +1,70 @@
+#################################################################
+## Lighting Automations
+#################################################################
+
+        ##########################################################
+        ## Turn On Hallway Lights In Morning
+        ##########################################################
+- alias: Lights - Turn On Hallway Lights In Morning
+
+  trigger:
+    platform: time
+    at: '05:00:00'
+
+  action:
+    - service: light.turn_on
+      data:
+        kelvin: 2600
+        brightness_pct: 100
+      target:
+        entity_id:
+          - light.hallway_third
+          - light.hallway_one
+          - light.kitchen_overhead
+          - light.hallway_side_right_one
+          - light.hallway_side_right_three
+          - light.hallway_side_left_three
+          - light.hallway_two
+          - light.hallway_side_left_one
+
+        ##########################################################
+        ## Turn Off Hallway Lights At Night
+        ##########################################################
+- alias: Lights - Turn Off Hallway Lights At Night
+
+  trigger:
+    platform: time
+    at: '23:00:00'
+
+  action:
+    - service: light.turn_on
+      data:
+        kelvin: 2600
+        brightness_pct: 5
+      target:
+        entity_id:
+          - light.hallway_third
+          - light.hallway_one
+          - light.kitchen_overhead
+          - light.hallway_side_right_one
+          - light.hallway_side_right_three
+          - light.hallway_side_left_three
+          - light.hallway_two
+          - light.hallway_side_left_one
+
+#################################################################
+## Util Automations
+#################################################################
+
+        ####################################################
+        #                TTS Clear Cache                   #
+        ####################################################
+- id: TTS-flush-cache
+  alias: Flush TTS Cache
+  initial_state: 'on'
+  hide_entity: True
+  trigger:
+    platform: time
+    at: '2:35:00'
+  action:
+   service: tts.clear_cache

@@ -1,0 +1,90 @@
+title: Home
+views:
+  - title: Home
+    icon: mdi:home
+    path: default_view
+    cards:
+      - type: custom:auto-entities
+        card:
+          type: entities
+          title: Automation
+        filter:
+          include:
+            - domain: automation
+      - type: custom:auto-entities
+        card:
+          type: entities
+          title: Binery Sensor
+        filter:
+          include:
+            - domain: binary_sensor
+      - type: custom:auto-entities
+        card:
+          type: entities
+          title: Group
+        filter:
+          include:
+            - domain: group
+      - type: custom:auto-entities
+        card:
+          type: entities
+          title: Input Boolean
+        filter:
+          include:
+            - domain: input_boolean
+      - type: custom:auto-entities
+        card:
+          type: entities
+          title: Input Select
+        filter:
+          include:
+            - domain: input_select
+      - type: custom:auto-entities
+        card:
+          type: entities
+          title: Light
+        filter:
+          include:
+            - domain: light
+      - type: custom:auto-entities
+        card:
+          type: entities
+          title: Media Player
+        filter:
+          include:
+            - domain: media_player
+      - type: custom:auto-entities
+        card:
+          type: entities
+          title: Remote
+        filter:
+          include:
+            - domain: remote
+      - type: custom:auto-entities
+        card:
+          type: entities
+          title: Sensor
+        filter:
+          include:
+            - domain: sensor
+      - type: custom:auto-entities
+        card:
+          type: entities
+          title: Switch
+        filter:
+          include:
+            - domain: switch
+      - type: custom:auto-entities
+        card:
+          type: entities
+          title: Weather
+        filter:
+          include:
+            - domain: weather
+      - type: custom:auto-entities
+        card:
+          type: entities
+          title: Zones
+        filter:
+          include:
+            - domain: zone
